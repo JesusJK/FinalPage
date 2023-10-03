@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: ´Pixelify´, sans-serif;
+    background-color: #000000;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    color:whitesmoke;
+}
+.container{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 5%;
+    color: aquamarine;
+}
+.element{
+    flex-wrap: 1;
+    padding: 10px;
+}
+.imagen{
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+    margin-right: 20%;
+    margin-top: 30%;
+}
+
+
