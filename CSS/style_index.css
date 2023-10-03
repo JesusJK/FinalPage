@@ -1,33 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&family=Young+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: ´Pixelify´, sans-serif;
-    background-color: #000000;
-}
-.title{
+#title{
+    color: #ffffff;
     text-align: center;
-    margin-top: 50px;
-    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 5%;
 }
-.container{
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 5%;
-    color: aquamarine;
-}
-.element{
-    flex-wrap: 1;
-    padding: 10px;
+a{
+    font-family:'Times New Roman', Times, serif;
+    color: #ffffff;font-size:larger;
 }
 .imagen{
-    display: flex;
-    align-items: flex-end;
     max-width: 100%;
-    margin-right: 20%;
-    margin-top: 30%;
+    margin-right: 450px;
+    margin-top: 80px;
+}
+.menu{
+    flex-grow: 1;
+}
+.contenedor{
+    display: flex;align-items:center;
+}
+body{
+    background-color:#000000;
+}
+a{
+    text-decoration: none;
 }
 
 
