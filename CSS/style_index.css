@@ -1,34 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Pixelify+Sans:wght@400;500&family=Roboto+Slab:wght@100&family=Ubuntu:wght@300&family=Young+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-#title{
-    color: #ffffff;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    margin-top: 5%;
-}
-a{
-    font-family:'Times New Roman', Times, serif;
-    color: #ffffff;font-size:larger;
-}
-.imagen{
-    max-width: 100%;
-    margin-right: 450px;
-    margin-top: 80px;
-}
-.menu{
-    flex-grow: 1;
-}
-.contenedor{
-    display: flex;align-items:center;
-}
 body{
-    background-color:#000000;
+    font-family: 'Dosis', sans-serif;
 }
-a{
-    text-decoration: none;
+.menu1{
+    max-width: 100%;
+    max-height: 90%;
+    padding: 30px;
+    background-color: #3f3f3f;
+
+}
+.nav_menu{
+width: 60px;
+height: 60px;
+
+}
+.container_general::before{
+    background-image: url(../multimedia/Rectangle\ 1.png);
+    padding-top: 10px;
+    max-height: 100px;
+    background-color: aqua;
 }
 
 
